@@ -1,0 +1,21 @@
+.badge-subscription {
+  background: linear-gradient(135deg, #D4A574 0%, #c08a5e 100%);
+  color: white;
+  font-size: 1rem;
+}
+
+.img-subscription {
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.btn-subscription {
+  background-color: var(--terracotta);
+  padding: 0.75rem 2rem;
+  color: white;
+}
+
+.btn-subscription:hover {
+  background-color: var(--coffee-600);
+  color: white;
+}

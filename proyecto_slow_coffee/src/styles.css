@@ -1,1 +1,156 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --coffee-900: #2b1e16;
+  --coffee-600: #6b4a3a;
+  --cream: #e3dacd;
+  --terracotta: #B36A4A;
+  --font-serif: 'Libre Baskerville', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.text-terracotta {
+  color: var(--terracotta) !important;
+}
+
+.text-coffee {
+  color: var(--coffee-900) !important;
+}
+
+.text-gold {
+  color: #FFD700 !important;
+}
+
+.text-star {
+  color: #D4A574 !important;
+}
+
+.font-serif {
+  font-family: var(--font-serif) !important;
+}
+
+.font-serif-bold {
+  font-family: var(--font-serif) !important;
+  font-weight: 600 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--coffee-900);
+  background: var(--cream);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--coffee-900);
+}
+
+p,
+.comunidad {
+  color: var(--coffee-600);
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px !important;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.py-section {
+  padding: 4rem 0;
+}
+
+.btn-outline-secondary {
+  border: 2px solid var(--coffee-900);
+  padding: 1.2rem 2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  background: var(--coffee-900);
+  color: var(--cream);
+  box-shadow: 0 4px 24px rgba(179, 106, 74, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background: var(--cream);
+  color: var(--coffee-900);
+  border: 2px solid var(--coffee-900);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 32px rgba(179, 106, 74, 0.6);
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  background: linear-gradient(135deg, rgba(212, 165, 116, 0.15) 0%, rgba(212, 165, 116, 0.05) 100%);
+}
+
+.icon-circle-dark {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(212, 165, 116, 0.1);
+}
+
+.icon-circle-sm {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-circle-lg {
+  width: 70px;
+  height: 70px;
+}
+
+.headline {
+  color: var(--terracotta);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-weight: 700;
+}
+
+.badge {
+  font-size: 2rem;
+  padding: 0.75rem 1.5rem;
+  color: var(--terracotta);
+  box-shadow: 0 4px 24px var(--cream);
+}
+
+.vr-md {
+  height: 48px;
+}
+
+.vr-sm {
+  height: 30px;
+}
+
+.svg-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--terracotta);
+  stroke-width: 1.5px;
+}
+
+.svg-inline {
+  vertical-align: middle;
+}

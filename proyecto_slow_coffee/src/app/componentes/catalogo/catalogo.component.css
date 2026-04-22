@@ -1,0 +1,43 @@
+.badge-premium,
+.badge-justo,
+.badge-organico {
+  padding: 0.5rem 1rem;
+  border-radius: 50rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.badge-premium {
+  background: linear-gradient(135deg, #D4A574 0%, #c08a5e 100%);
+}
+
+.badge-justo {
+  background: linear-gradient(135deg, #6F7D63 0%, #556b4a 100%);
+}
+
+.badge-organico {
+  background: linear-gradient(135deg, rgba(179, 106, 74, 0.93) 0%, rgba(158, 86, 56, 0.96) 100%);
+}
+
+.badge-label {
+  font-size: 0.85rem;
+}
+
+.trust-label {
+  font-size: 1.1rem;
+  color: var(--coffee-900);
+}
+
+.sidebar-sticky {
+  top: 100px;
+}
+
+.btn-apply {
+  background-color: var(--terracotta);
+  color: white;
+}
+
+.btn-apply:hover {
+  background-color: var(--coffee-600);
+}
