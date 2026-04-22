@@ -1,8 +1,15 @@
+<app-hero
+  titulo="El café no es prisa"
+  subtitulo="Es tiempo bien invertido."
+  textoBoton="Conocer Cafés"
+  botonUrl="/catalogo"
+  imgUrl="../img/indexHero.png"
+/>
+
 <section id="best-sellers" class="py-3 my-5">
   <div class="container">
     <h2 class="display-5 fw-bold text-center mb-5">Nuestros Productos más vendidos</h2>
     <div class="row g-4">
-
       <div class="col-md-4">
         <div class="product-card rounded-4 bg-white h-100">
           <div class="product-img-wrapper rounded-top-4">
@@ -125,21 +132,11 @@
 </section>
 
 <!-- CTA FINAL -->
-<section class="hero-section">
-  <img src="img/homeCTA.png" alt="CTA fondo" class="hero-img">
-  <div class="hero-overlay"></div>
-  <div class="container hero-content">
-    <div class="row justify-content-center">
-      <div class="col-lg-10 col-xl-8 text-center">
-        <h1 class="display-2 fw-bold mb-4 text-white">Ven a saborear el tiempo</h1>
-        <p class="fs-4 mb-4 text-white">Encuentra tu ritual en cada taza.</p>
-        <a href="pag/catalogo.html" class="btn btn-hero fs-5">
-          Descubrir Más
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="ms-2" class="svg-inline">
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<app-hero
+  titulo="Ven a saborear el tiempo"
+  subtitulo="Encuentra tu ritual en cada taza."
+  textoBoton="Descubrir Más"
+  botonUrl="/catalogo"
+  imgUrl="../img/ctaIndex.png"
+/>
+

@@ -1,13 +1,14 @@
 <section class="hero-section">
-  <img src="img/indexHero.png" alt="IndexHero" class="hero-img">
+  <img [src]="imgUrl" alt="IndexHero" class="hero-img">
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <div class="row justify-content-center">
       <div class="col-lg-10 col-xl-8 text-center">
-        <h1 class="display-2 fw-bold mb-4 text-white">El café no es prisa</h1>
-        <p class="fs-4 mb-4 text-white">Es tiempo bien invertido.</p>
-        <a href="pag/catalogo.html" class="btn btn-hero fs-5">
-          Explorar Cafés
+        <h1 class="display-2 fw-bold mb-4 text-white">{{ titulo }}</h1>
+        <p class="fs-4 mb-4 text-white">{{ subtitulo }}</p>
+        <ng-content/>
+        <a [routerLink]="botonUrl" class="btn btn-hero fs-5">
+          {{ textoBoton }}
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="ms-2" class="svg-inline">
             <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>

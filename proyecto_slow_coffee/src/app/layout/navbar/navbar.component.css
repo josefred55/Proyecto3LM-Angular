@@ -21,12 +21,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100vw;  /* ← en lugar de right: 0 */
     bottom: 0;
     background: var(--cream);
     z-index: 1040;
     padding: 2rem;
     overflow-y: auto;
+    overflow-x: hidden; /* ← añade esto */
   }
 
   .navbar-collapse.show,
@@ -42,6 +43,8 @@
     width: 100%;
     text-align: center;
     gap: 1rem !important;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .nav-item {
