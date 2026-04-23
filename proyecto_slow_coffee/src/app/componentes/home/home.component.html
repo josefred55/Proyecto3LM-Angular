@@ -11,56 +11,37 @@
     <h2 class="display-5 fw-bold text-center mb-5">Nuestros Productos más vendidos</h2>
     <div class="row g-4">
       <div class="col-md-4">
-        <div class="product-card rounded-4 bg-white h-100">
-          <div class="product-img-wrapper rounded-top-4">
-            <img src="./img/productosFoto.png" alt="Café Colina">
-          </div>
-          <div class="p-4">
-            <span class="headline d-block mb-2">Colombia · Natural</span>
-            <h5 class="product-name">Café Colina</h5>
-            <p>Notas de chocolate y naranja. 250g.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <span class="product-price">9.50 €</span>
-              <a href="pag/catalogo.html" class="btn btn-outline-secondary" class="btn-card">Ver</a>
-            </div>
-          </div>
-        </div>
+        <app-product-card
+          etiqueta="Colombia · Natural"
+          titulo="Café Colina"
+          descripcion="Notas de chocolate y naranja. 250g."
+          precio="9.50 €"
+          textoBoton="Ver"
+          urlBoton="/catalogo"
+        />
       </div>
 
       <div class="col-md-4">
-        <div class="product-card rounded-4 bg-white h-100">
-          <div class="product-img-wrapper rounded-top-4">
-            <img src="./img/productosFoto.png" alt="Blend Amanecer">
-          </div>
-          <div class="p-4">
-            <span class="headline d-block mb-2">Blend · Filtrado</span>
-            <h5 class="product-name">Blend Amanecer</h5>
-            <p>Equilibrado y dulce, ideal para filtrado. 250g.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <span class="product-price">8.90 €</span>
-              <a href="pag/catalogo.html" class="btn btn-outline-secondary" class="btn-card">Ver</a>
-            </div>
-          </div>
-        </div>
+        <app-product-card
+          etiqueta="Blend · Filtrado"
+          titulo="Blend Amanecer"
+          descripcion="Equilibrado y dulce, ideal para filtrado. 250g."
+          precio="8.90 €"
+          textoBoton="Ver"
+          urlBoton="/catalogo"
+        />
       </div>
 
       <div class="col-md-4">
-        <div class="product-card rounded-4 bg-white h-100">
-          <div class="product-img-wrapper rounded-top-4">
-            <img src="./img/productosFoto.png" alt="Espresso Tostado">
-          </div>
-          <div class="p-4">
-            <span class="headline d-block mb-2">Espresso · Tostado</span>
-            <h5 class="product-name">Espresso Tostado</h5>
-            <p>Cuerpo intenso y final persistente. 250g.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <span class="product-price">10.20 €</span>
-              <a href="pag/catalogo.html" class="btn btn-outline-secondary" class="btn-card">Ver</a>
-            </div>
-          </div>
-        </div>
+        <app-product-card
+          etiqueta="Espresso · Tostado"
+          titulo="Espresso Tostado"
+          descripcion="Cuerpo intenso y final persistente. 250g."
+          precio="10.20 €"
+          textoBoton="Ver"
+          urlBoton="/catalogo"
+        />
       </div>
-
     </div>
   </div>
 </section>
@@ -126,7 +107,6 @@
           <p class="mb-0 lh-lg">Un gesto humano que acompaña tu pausa diaria, celebrando la paciencia y la atención en cada taza.</p>
         </div>
       </div>
-
     </div>
   </div>
 </section>

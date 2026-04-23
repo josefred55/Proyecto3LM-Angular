@@ -13,6 +13,7 @@ export class HeroComponent {
   @Input() titulo: string = '';
   @Input() subtitulo: string = '';
   @Input() textoBoton: string = '';
+  @Input() mostrarBoton: boolean = true;
   @Input() botonUrl: string = '';
   @Input() imgUrl: string = '';
 }
