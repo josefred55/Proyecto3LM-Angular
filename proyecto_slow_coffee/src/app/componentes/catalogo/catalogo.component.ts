@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router'; // 1. Importamos el Router
-import { ProductCardComponent } from '../../layout/product-card/product-card.component';
+import { ProductCardComponent } from '../product-card/product-card.component';
 import { CartService } from '../../servicios/cart.service';
 
 interface Product {

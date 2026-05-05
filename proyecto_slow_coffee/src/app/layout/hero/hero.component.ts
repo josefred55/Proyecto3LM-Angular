@@ -16,6 +16,4 @@ export class HeroComponent {
   @Input() botonUrl: string = '';
   @Input() imgUrl: string = '';
   @Input() posicion: 'start' | 'center' | 'end' = 'center';
-  @Input() degradado: boolean = false;
-  @Input() mostrarBoton: boolean = true;
 }
