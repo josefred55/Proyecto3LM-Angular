@@ -7,10 +7,10 @@ import { RouterModule } from '@angular/router';
   selector: 'app-checkout',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
-  templateUrl: './checkout.component.html',
-  styleUrl: './checkout.component.css'
+  templateUrl: './carrito.component.html',
+  styleUrl: './carrito.component.css'
 })
-export class CheckoutComponent {
+export class CarritoComponent {
   step = 1;
 
   // Datos de envío

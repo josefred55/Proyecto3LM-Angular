@@ -145,10 +145,11 @@
           <div class="col-md-6 col-lg-4">
             <app-product-card
               [id]="p.id"
-              [etiqueta]="p.origin + ' · ' + p.process"
-              [titulo]="p.name"
-              [descripcion]="p.note"
+              [etiqueta]="p.etiqueta"
+              [titulo]="p.titulo"
+              [descripcion]="p.descripcion"
               [precio]="p.price + ' €'"
+              [imgUrl]="p.img"
               textoBoton="Añadir al carrito"
               urlBoton="/catalogo"
             >

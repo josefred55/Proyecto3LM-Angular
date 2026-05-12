@@ -8,6 +8,10 @@ import {ValoresComponent} from './componentes/valores/valores.component';
 import {PageNotFoundComponent} from './layout/page-not-found/page-not-found.component';
 // 1. IMPORTA AQUÍ TU COMPONENTE
 import { ProductoDetalleComponent } from './componentes/producto-detalle/producto-detalle.component';
+import {CarritoComponent} from './componentes/carrito/carrito.component';
+import {LoginComponent} from './componentes/auth/login/login.component';
+import {RegistroComponent} from './componentes/auth/registro/registro.component';
+import {ContactoComponent} from './componentes/contacto/contacto.component';
 
 export const routes: Routes = [
   {
@@ -42,6 +46,22 @@ export const routes: Routes = [
   {
     path: 'valores',
     component: ValoresComponent
+  },
+  {
+    path: 'carrito',
+    component: CarritoComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'registro',
+    component: RegistroComponent
+  },
+  {
+    path: 'contacto',
+    component: ContactoComponent
   },
   {
     path: '**', // EL 404 SIEMPRE AL FINAL

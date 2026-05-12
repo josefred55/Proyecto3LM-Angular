@@ -1,52 +1,83 @@
 [
   {
     "id": 1,
-    "name": "Café Etiopía Lote #1",
-    "origin": "Etiopía",
-    "process": "Lavado",
-    "note": "Frutos Rojos y Cítricos",
+    "titulo": "Café Colina",
+    "descripcion": "Notas de chocolate y naranja.",
+    "etiqueta": "Colombia · Natural",
     "badge": "Orgánico",
-    "price": 12.00,
-    "img": "img/productosFoto.png"
+    "price": 9.5,
+    "img": "img/cafe1.jpg"
   },
   {
     "id": 2,
-    "name": "Café Colombia Lote #2",
-    "origin": "Colombia",
-    "process": "Natural",
-    "note": "Naranja y Miel",
+    "titulo": "Blend Amanecer",
+    "descripcion": "Equilibrado y dulce, ideal para filtrado.",
+    "etiqueta": "Brasil · Filtrado",
     "badge": "Premium",
-    "price": 13.37,
-    "img": "img/productosFoto.png"
+    "price": 8.9,
+    "img": "img/cafe2.jpg"
   },
   {
     "id": 3,
-    "name": "Café Brasil Lote #3",
-    "origin": "Brasil",
-    "process": "Honey",
-    "note": "Caramel y Azúcar",
+    "titulo": "Espresso Tostado",
+    "descripcion": "Cuerpo intenso y final persistente.",
+    "etiqueta": "Etiopía · Tostado",
     "badge": "Comercio Justo",
-    "price": 14.74,
-    "img": "img/productosFoto.png"
+    "price": 10.2,
+    "img": "img/cafe3.jpg"
   },
   {
     "id": 4,
-    "name": "Café Kenya Lote #4",
-    "origin": "Kenya",
-    "process": "Lavado",
-    "note": "Limón y Grosella",
+    "titulo": "Etiopía Floral",
+    "descripcion": "Floral y Bergamota.",
+    "etiqueta": "Etiopía · Lavado",
     "badge": "Orgánico",
-    "price": 16.11,
-    "img": "img/productosFoto.png"
+    "price": 11.5,
+    "img": "img/cafe4.jpg"
   },
   {
     "id": 5,
-    "name": "Café Etiopía Lote #5",
-    "origin": "Etiopía",
-    "process": "Natural",
-    "note": "Floral y Bergamota",
+    "titulo": "Colombia Caramelo",
+    "descripcion": "Caramelo y Nueces.",
+    "etiqueta": "Colombia · Honey",
     "badge": "Premium",
-    "price": 17.48,
-    "img": "img/productosFoto.png"
+    "price": 10.8,
+    "img": "img/cafe5.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Brasil Chocolate",
+    "descripcion": "Chocolate y Avellana.",
+    "etiqueta": "Brasil · Natural",
+    "badge": "Comercio Justo",
+    "price": 9.9,
+    "img": "img/cafe6.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Kenya Limón",
+    "descripcion": "Limón y Grosella.",
+    "etiqueta": "Kenya · Lavado",
+    "badge": "Orgánico",
+    "price": 12.3,
+    "img": "img/cafe7.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Colombia Naranja",
+    "descripcion": "Naranja y Miel.",
+    "etiqueta": "Colombia · Lavado",
+    "badge": "Premium",
+    "price": 10.5,
+    "img": "img/cafe8.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Kenya Tropical",
+    "descripcion": "Tropical y Cítrico.",
+    "etiqueta": "Kenya · Natural",
+    "badge": "Comercio Justo",
+    "price": 11.8,
+    "img": "img/cafe9.jpg"
   }
 ]

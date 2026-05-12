@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit {
     { nombre: 'Comunidad', url: '/comunidad' },
     { nombre: 'Valores', url: '/valores' },
     { nombre: 'Soporte', url: '/soporte' },
-    { nombre: 'Login', url: '/login' }
+    { nombre: 'Login', url: '/login' },
   ];
 
   ngOnInit() {

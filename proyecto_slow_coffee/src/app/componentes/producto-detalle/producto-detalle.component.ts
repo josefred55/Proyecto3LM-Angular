@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import {Component, OnInit, inject, Input} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ProductService } from '../../servicios/product.service';
@@ -31,6 +31,6 @@ export class ProductoDetalleComponent implements OnInit {
   }
 
   agregarAlCarrito() {
-    alert(`¡${this.producto?.name} añadido al carrito!`);
+    alert(`¡${this.producto?.titulo} añadido al carrito!`);
   }
 }

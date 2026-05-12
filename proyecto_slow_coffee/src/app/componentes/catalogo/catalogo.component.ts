@@ -17,17 +17,6 @@ export class CatalogoComponent implements OnInit {
   // --- Inyección del servicio ---
   private productService = inject(ProductService);
 
-  // --- Datos ---
-  protected origins = ['Etiopía', 'Colombia', 'Brasil', 'Kenya'];
-  protected processes = ['Lavado', 'Natural', 'Honey'];
-  protected noteMap: Record<string, string[]> = {
-    'Etiopía':  ['Frutos Rojos y Cítricos', 'Floral y Bergamota', 'Bayas y Chocolate'],
-    'Colombia': ['Caramelo y Nueces', 'Naranja y Miel', 'Chocolate y Ciruela'],
-    'Brasil':   ['Chocolate y Avellana', 'Nuez y Especias', 'Caramel y Azúcar'],
-    'Kenya':    ['Limón y Grosella', 'Frambuesa y Menta', 'Tropical y Cítrico']
-  };
-  protected badgeTypes = ['Orgánico', 'Premium', 'Comercio Justo'];
-
   // --- Estado ---
   products: Product[] = [];
   filteredProducts: Product[] = [];
@@ -74,10 +63,9 @@ export class CatalogoComponent implements OnInit {
     const term = this.searchTerm.toLowerCase();
 
     let filtered = this.products.filter(p => {
-      const matchSearch = !term || p.name.toLowerCase().includes(term) || p.note.toLowerCase().includes(term);
-      const matchOrigin = !this.selectedOrigins.length || this.selectedOrigins.includes(p.origin);
+      const matchSearch = !term || p.titulo.toLowerCase().includes(term) || p.etiqueta.toLowerCase().includes(term);
       const matchBadge  = !this.selectedBadges.length  || this.selectedBadges.includes(p.badge);
-      return matchSearch && matchOrigin && matchBadge;
+      return matchSearch && matchBadge;
     });
 
     if (this.sortValue === 'price-asc')  filtered.sort((a, b) => a.price - b.price);
